@@ -5,6 +5,8 @@ import org.junit.Test;
 import java.util.HashSet;
 import java.util.Set;
 
+import static org.junit.Assert.assertEquals;
+
 public class LongestSubstring
 {	
 	public int lengthOfLongestSubstring(String s) {
@@ -29,8 +31,8 @@ public class LongestSubstring
 	public void test()
 	{
 		LongestSubstring solution = new LongestSubstring();
-		System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
-		System.out.println(solution.lengthOfLongestSubstring(""));
+		assertEquals(3, solution.lengthOfLongestSubstring("abcabcbb"));
+		assertEquals(0, solution.lengthOfLongestSubstring(""));
 	}
 
 }

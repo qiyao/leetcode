@@ -91,4 +91,5 @@ public class AddDigits
 		System.out.println(a.nthUglyNumber(1352));
 	}
 
+
 }
